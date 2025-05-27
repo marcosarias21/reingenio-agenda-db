@@ -31,7 +31,8 @@ En caso de no: https://www.mongodb.com/products/tools/compass
 
 ---
 
-- Endpoints disponibles
+## Endpoints disponibles
+
 GET -> /contactos : Obtiene todos los contactos
 POST -> /contactos/crear : crea nuevos contactos
 PUT -> /contactos/editar/:id : Obtiene por parametro el id del contacto y lo modifica.
@@ -39,7 +40,7 @@ DELETE -> /contactos/borrar/:id : Borrar al contacto , que se envia por parametr
 
 ---
 
-⚙️ Tecnologías utilizadas
+### Tecnologías utilizadas
 Node.js
 
 Express
