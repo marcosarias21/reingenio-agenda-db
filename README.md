@@ -8,7 +8,6 @@ Este proyecto es una agenda de contactos básica desarrollada con **Node.js**, *
 
 1. **Clonar el repositorio o descomprimir el archivo .zip**
 
-```bash
 git clone https://github.com/marcosarias21/reingenio-agenda-db.git
 cd reingenio-agenda-db
 
@@ -29,16 +28,12 @@ Yo tengo instalado MongoDB Compass , se ejecuta localmente. Para instalarlo, es 
 MongoDB Community Server: https://www.mongodb.com/try/download/community-kubernetes-operator. Viene con Compass incluido.
 En caso de no: https://www.mongodb.com/products/tools/compass
 
----
-
 ## Endpoints disponibles
 
 GET -> /contactos : Obtiene todos los contactos
 POST -> /contactos/crear : crea nuevos contactos
 PUT -> /contactos/editar/:id : Obtiene por parametro el id del contacto y lo modifica.
-DELETE -> /contactos/borrar/:id : Borrar al contacto , que se envia por parametro su id.
 
----
 
 ### Tecnologías utilizadas
 Node.js
