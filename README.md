@@ -16,6 +16,7 @@ En caso de no: https://www.mongodb.com/products/tools/compass
 ```bash
 git clone https://github.com/marcosarias21/reingenio-agenda-db.git
 cd reingenio-agenda-db
+npm install
 ```
 ## Configurar variables de entorno
 
