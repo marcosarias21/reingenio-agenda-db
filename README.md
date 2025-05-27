@@ -4,17 +4,15 @@ Este proyecto es una agenda de contactos básica desarrollada con **Node.js**, *
 
 ---
 
-## Instalación
+## 🚀 Instalación
 
-1. **Clonar el repositorio o descomprimir el archivo .zip**
+1. **Clonar el repositorio o descomprimir el archivo `.zip`:**
 
+```bash
 git clone https://github.com/marcosarias21/reingenio-agenda-db.git
 cd reingenio-agenda-db
 
-Instalar dependencias
-npm install
-
-Configurar variables de entorno
+## Configurar variables de entorno
 
 Crear un archivo .env con el siguiente contenido:
 
@@ -31,7 +29,9 @@ En caso de no: https://www.mongodb.com/products/tools/compass
 ## Endpoints disponibles
 
 GET -> /contactos : Obtiene todos los contactos
+
 POST -> /contactos/crear : crea nuevos contactos
+
 PUT -> /contactos/editar/:id : Obtiene por parametro el id del contacto y lo modifica.
 
 
