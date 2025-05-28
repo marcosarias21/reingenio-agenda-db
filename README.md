@@ -34,9 +34,11 @@ npm run dev
 
 GET -> /contactos : Obtiene todos los contactos
 
-POST -> /contactos/crear : crea nuevos contactos
+POST -> /contactos/crear : Crea nuevos contactos.
 
-PUT -> /contactos/editar/:id : Obtiene por parametro el id del contacto y lo modifica.
+PUT -> /contactos/editar/:id : Obtiene por parametro el id del contacto y lo modifica
+
+DELETE -> /contactos/borrar/:id : Borra el contacto mediante el envio de su id por parametro
 
 
 ### Tecnologías utilizadas
